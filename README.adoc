@@ -1,6 +1,6 @@
-# Dictionary Lookup Add-on for Google Docs&trade;
+## Dictionary Lookup Add-on for Google Docs&trade;
 :webstore: https://chrome.google.com/webstore/detail/dictionary-lookup/aobgelnkkhckfakglcnfdolaphfemalm?utm_source=permalink
 
-Search for any word from your Google document in online dictionaries.
+Search for words from your Google document in online dictionaries.
 
 image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png[link="{webstore}"]
