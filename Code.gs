@@ -11,11 +11,11 @@
  * List of default dictionaries.
  */
 var defaultDicts = {
-  'Cambridge'        : 'http://dictionary.cambridge.org/search/english-russian/direct/?q=',
-  'Oxford'           : 'http://www.oxfordlearnersdictionaries.com/search/english/?q=',
-  'SkELL'            : 'https://skellm.sketchengine.co.uk/run.cgi/concordance?query=',
-  'Lingvo'           : 'https://www.lingvolive.com/ru-ru/translate/en-ru/',
-  'Google Translate' : 'https://translate.google.com/#en/ru/',
+  'Cambridge'        : 'http://dictionary.cambridge.org/search/english-russian/direct/?q=%s',
+  'Oxford'           : 'http://www.oxfordlearnersdictionaries.com/search/english/?q=%s',
+  'SkELL'            : 'https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s',
+  'Lingvo'           : 'https://www.lingvolive.com/ru-ru/translate/en-ru/%s',
+  'Google Translate' : 'https://translate.google.com/#en/ru/%s',
 };
 
 /**
@@ -53,7 +53,7 @@ function showSidebar() {
       <style> \
         input  { width: 100%; margin-bottom: 16px; } \
         body   { background-color: WhiteSmoke; margin-top: 16px; } \
-        footer { position:fixed; bottom:0; left:8px; } \
+        footer { position:fixed; bottom:0; right:16px; } \
       </style> \
     </head> \
     <body> \
@@ -68,9 +68,10 @@ function showSidebar() {
   }
   html += ' \
       </form><footer> \
+        <a href="https://github.com/in4lio/dictionary-lookup/" target="blank">GitHub</a> \
+        &nbsp; \
         <input type="button" style="width:120px" value="Preferences" \
         onclick="google.script.run.showSettings()" /> \
-        <a href="https://github.com/in4lio/dictionary-lookup/" target="blank">Home</a> \
       </footer> \
     </body> \
   </html>';
@@ -139,7 +140,7 @@ function getLookupText() {
 }
 
 function getLookupLink(url) {
-  return url + getLookupText();
+  return Utilities.formatString(url, getLookupText());
 }
 
 function showSettings() {
