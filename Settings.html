@@ -13,12 +13,16 @@
       float: left;
       width: 30%;
     }
+    .col-two {
+      float: left;
+      width: 70%;
+    }
     input[name=caption] {
       width: 95%;
       margin: 4px 0;
     }
     input[name=url] {
-      width: 70%;
+      width: 100%;
       margin: 4px 0;
     }
     </style>
@@ -40,7 +44,7 @@
             <div><input type="text" name="caption" id="caption-8"></div>
             <div><input type="text" name="caption" id="caption-9"></div>
           </div>
-          <div>
+          <div class="col-two">
             <b>URL</b><span style="color: DodgerBlue;"> (%s = a word or selected text)</span>
             <div><input type="text" name="url" id="url-0"></div>
             <div><input type="text" name="url" id="url-1"></div>
