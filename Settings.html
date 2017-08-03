@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <!-- The CSS package above applies Google styling to buttons and other elements. -->
+
+    <style>
+    .col-contain {
+      overflow: hidden;
+    }
+    .col-one {
+      float: left;
+      width: 30%;
+    }
+    input[name=caption] {
+      width: 95%;
+      margin: 4px 0;
+    }
+    input[name=url] {
+      width: 70%;
+      margin: 4px 0;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <div class="block col-contain">
+          <div class="col-one">
+            <b>Caption</b>
+            <div><input type="text" name="caption" id="caption-0"></div>
+            <div><input type="text" name="caption" id="caption-1"></div>
+            <div><input type="text" name="caption" id="caption-2"></div>
+            <div><input type="text" name="caption" id="caption-3"></div>
+            <div><input type="text" name="caption" id="caption-4"></div>
+            <div><input type="text" name="caption" id="caption-5"></div>
+            <div><input type="text" name="caption" id="caption-6"></div>
+            <div><input type="text" name="caption" id="caption-7"></div>
+            <div><input type="text" name="caption" id="caption-8"></div>
+            <div><input type="text" name="caption" id="caption-9"></div>
+          </div>
+          <div>
+            <b>URL</b><span style="color: DodgerBlue;"> (%s = a word or selected text)</span>
+            <div><input type="text" name="url" id="url-0"></div>
+            <div><input type="text" name="url" id="url-1"></div>
+            <div><input type="text" name="url" id="url-2"></div>
+            <div><input type="text" name="url" id="url-3"></div>
+            <div><input type="text" name="url" id="url-4"></div>
+            <div><input type="text" name="url" id="url-5"></div>
+            <div><input type="text" name="url" id="url-6"></div>
+            <div><input type="text" name="url" id="url-7"></div>
+            <div><input type="text" name="url" id="url-8"></div>
+            <div><input type="text" name="url" id="url-9"></div>
+          </div>
+        </div>
+       <div class="block" id="button-bar">
+          <button id="run-translation" class="blue">Save</button>
+          <button onclick="google.script.host.close()">Cancel</button>
+          <button id="insert-text"style="float: right;">Default</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
