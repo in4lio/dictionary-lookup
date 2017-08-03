@@ -144,11 +144,6 @@ function getLookupLink(url) {
 }
 
 function showSettings() {
-  var html = ' \
-    <h2>Under construction.</h2><br> \
-    <input type="button" value="Save" onclick="google.script.host.close()" /> \
-    <input type="button" value="Cancel" onclick="google.script.host.close()" />';
-
-  var ui = HtmlService.createHtmlOutput(html).setWidth(400).setHeight(500);
+  var ui = HtmlService.createHtmlOutputFromFile('Settings').setWidth(600).setHeight(400);
   DocumentApp.getUi().showModalDialog(ui, 'Preferences');
 }
