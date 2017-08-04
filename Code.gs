@@ -10,12 +10,13 @@
 /**
  * List of default dictionaries.
  */
-var defaultDicts = {
-  'Cambridge'        : 'http://dictionary.cambridge.org/search/english-russian/direct/?q=%s',
-  'Oxford'           : 'http://www.oxfordlearnersdictionaries.com/search/english/?q=%s',
-  'SkELL'            : 'https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s',
-  'Lingvo'           : 'https://www.lingvolive.com/ru-ru/translate/en-ru/%s',
-  'Google Translate' : 'https://translate.google.com/#en/ru/%s',
+var defaultSettings = {
+  'count' : '10',
+  'dict0' : 'Cambridge,        http://dictionary.cambridge.org/search/english-russian/direct/?q=%s',
+  'dict1' : 'Oxford,           http://www.oxfordlearnersdictionaries.com/search/english/?q=%s',
+  'dict2' : 'SkELL,            https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s',
+  'dict3' : 'Lingvo,           https://www.lingvolive.com/ru-ru/translate/en-ru/%s',
+  'dict4' : 'Google Translate, https://translate.google.com/#en/ru/%s',
 };
 
 /**
@@ -32,7 +33,7 @@ function onOpen(e) {
  */
 function onInstall(e) {
   // Set default dictionaries for current user.
-  PropertiesService.getUserProperties().setProperties(defaultDicts, true);
+  PropertiesService.getUserProperties().setProperties(defaultSettings, true);
 
   onOpen(e);
 }
@@ -41,42 +42,7 @@ function onInstall(e) {
  * Opens a sidebar in the document containing the add-on's user interface.
  */
 function showSidebar() {
-  // Construct a sidebar.
-  var html = ' \
-  <html> \
-    <head> \
-      <script> \
-        function openLink(url) { \
-          window.open(url, "_blank"); \
-        } \
-      </script> \
-      <style> \
-        input  { width: 100%; margin-bottom: 16px; } \
-        body   { background-color: WhiteSmoke; margin-top: 16px; } \
-        footer { position:fixed; bottom:0; right:16px; } \
-      </style> \
-    </head> \
-    <body> \
-      <form>';
-  var dicts = PropertiesService.getUserProperties().getProperties();
-  for (var key in dicts) {
-    html += Utilities.formatString(' \
-        <input type="button" value="%s" \
-        onClick="google.script.run.withSuccessHandler(openLink).getLookupLink(\'%s\')" />'
-    , key, dicts[key]
-    );
-  }
-  html += ' \
-      </form><footer> \
-        <a href="https://github.com/in4lio/dictionary-lookup/" target="blank">GitHub</a> \
-        &nbsp; \
-        <input type="button" style="width:120px" value="Preferences" \
-        onclick="google.script.run.showSettings()" /> \
-      </footer> \
-    </body> \
-  </html>';
-
-  var ui = HtmlService.createHtmlOutput(html).setTitle('Lookup');
+  var ui = HtmlService.createTemplateFromFile('Sidebar').evaluate().setTitle('Lookup');
   DocumentApp.getUi().showSidebar(ui);
 }
 
@@ -144,6 +110,6 @@ function getLookupLink(url) {
 }
 
 function showSettings() {
-  var ui = HtmlService.createHtmlOutputFromFile('Settings').setWidth(600).setHeight(400);
+  var ui = HtmlService.createTemplateFromFile('Settings').evaluate().setWidth(600).setHeight(400);
   DocumentApp.getUi().showModalDialog(ui, 'Preferences');
 }
