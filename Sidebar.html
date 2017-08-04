@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      html {
+        overflow: hidden;
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        margin-top: 16px;
+        background-color: WhiteSmoke;
+      }
+      div[role="main"] {
+        overflow: auto;
+        height: 100%;
+      }
+      input[name="dict"]{ 
+        width: 100%;
+        margin-bottom: 16px;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        right: 16px;
+        background-color: WhiteSmoke;
+      }
+      input[name="settings"]{ 
+        width: 120px;
+        margin-top: 4px;
+        margin-left: 8px;
+        margin-right: 4px;
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div role="main">
+      <form>
+      <?
+      var data = PropertiesService.getUserProperties().getProperties();
+      for (var i = 0; i < data.count; i++) {
+        if ('dict' + i in data) {
+          var dict = data['dict' + i].split(',', 2);
+          if (dict.length == 2) {
+      ?>
+            <input type="button" name="dict" value="<?= dict[0].trim() ?>" 
+            onClick="google.script.run.withSuccessHandler(openLink).getLookupLink('<?= dict[1].trim() ?>')"/>
+      <?
+          }
+        }
+      }
+      ?>
+      </form>
+    </div>  
+    <footer>
+      <a href="https://github.com/in4lio/dictionary-lookup/" style="margin-left: 4px;" target="blank">GitHub</a>
+      <input type="button" name="settings" value="Preferences" onclick="google.script.run.showSettings()"/>
+    </footer>
+    <script>
+      function openLink(url) {
+        window.open(url, "_blank");
+      }
+    </script>
+  </body>
+</html>
