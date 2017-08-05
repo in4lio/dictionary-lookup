@@ -106,10 +106,26 @@ function getLookupText() {
 }
 
 function getLookupLink(url) {
-  return Utilities.formatString(url, getLookupText());
+  if (url) return Utilities.formatString(url, getLookupText());
+  throw new Error( "Empty URL." );
 }
 
 function showSettings() {
   var ui = HtmlService.createTemplateFromFile('Settings').evaluate().setWidth(600).setHeight(400);
   DocumentApp.getUi().showModalDialog(ui, 'Preferences');
+}
+
+function saveSettings(form) {
+  var userProperties = PropertiesService.getUserProperties();
+
+  for (var i = 0; i < userProperties.getProperty('count'); i++) {
+    var caption = form['caption' + i].trim();
+    var url = form['url' + i].trim();
+    if (caption) {
+      userProperties.setProperty('dict' + i, caption + ',' + url);
+    } else {
+      userProperties.deleteProperty('dict' + i);
+    }
+  }
+  showSidebar();
 }
