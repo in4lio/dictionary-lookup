@@ -16,11 +16,11 @@
       float: left;
       width: 70%;
     }
-    input[name=caption] {
+    input[name^="caption"] {
       width: 95%;
       margin: 4px 0;
     }
-    input[name=url] {
+    input[name^="url"] {
       width: 100%;
       margin: 4px 0;
     }
@@ -40,7 +40,7 @@
                 val = data['dict' + i].split(',', 2)[0].trim();
               }
             ?>
-              <div><input type="text" name="caption" id="caption-<?= i ?>" value="<?= val ?>"></div>
+              <div><input type="text" id="caption<?= i ?>" name="caption<?= i ?>" value="<?= val ?>"></div>
             <?
             }
             ?>
@@ -54,20 +54,43 @@
                 val = data['dict' + i].split(',', 2)[1].trim();
               }
             ?>
-              <div><input type="text" name="url" id="url-<?= i ?>" value="<?= val ?>"></div>
+              <div><input type="text" id="url<?= i ?>" name="url<?= i ?>" value="<?= val ?>"></div>
             <?
             }
             ?>
           </div>
         </div>
-       <div class="block" id="button-bar">
-          <button id="run-translation" class="blue">Save</button>
-          <button onclick="google.script.host.close()">Cancel</button>
-          <button id="insert-text"style="float: right;">Default</button>
+       <div class="block">
+          <input type="button" onClick="google.script.run.withSuccessHandler(closeDialog).saveSettings(this.form)" value="Save" class="blue" style="margin-right: 16px;"/>
+          <input type="button" onClick="closeDialog()" value="Cancel"/>
+          <input type="button" onClick="defaultSettings()" value="Default" style="float: right;"/>
         </div>
       </form>
     </div>
     <script>
+      function defaultSettings() {
+        // I guess, there is a better way...
+        <?
+        var data = defaultSettings;
+        for (var i = 0; i < data.count; i++) {
+          if ('dict' + i in data) {
+            var dict = data['dict' + i].split(',', 2);
+        ?>
+            document.getElementById('caption<?= i ?>').value = '<?= dict[0].trim() ?>';
+            document.getElementById('url<?= i ?>'    ).value = '<?= dict[1].trim() ?>';
+        <?
+          } else {
+        ?>
+            document.getElementById('caption<?= i ?>').value = '';
+            document.getElementById('url<?= i ?>'    ).value = '';
+        <?
+          }
+        }
+        ?>
+      }
+      function closeDialog() {
+        google.script.host.close();
+      }
     </script>
   </body>
 </html>
