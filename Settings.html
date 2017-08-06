@@ -61,7 +61,8 @@
           </div>
         </div>
        <div class="block">
-          <input type="button" onClick="google.script.run.withSuccessHandler(closeDialog).saveSettings(this.form)" value="Save" class="blue" style="margin-right: 16px;"/>
+          <input type="button" onClick="google.script.run.withSuccessHandler(closeDialog).saveSettings(this.form)"
+          value="Save" class="blue" style="margin-right: 16px;"/>
           <input type="button" onClick="closeDialog()" value="Cancel"/>
           <input type="button" onClick="defaultSettings()" value="Default" style="float: right;"/>
         </div>
@@ -69,7 +70,7 @@
     </div>
     <script>
       function defaultSettings() {
-        // I guess, there is a better way...
+        // I guess, somewhere there is a better way...
         <?
         var data = defaultSettings;
         for (var i = 0; i < data.count; i++) {
