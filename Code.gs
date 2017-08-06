@@ -1,5 +1,5 @@
 /*
- * Dictionary Lookup -- Search for a word in online dictionaries.
+ * Dictionary Lookup -- Search for words from your Google document in online dictionaries.
  * https://github.com/in4lio/dictionary-lookup
  *
  * Based on Google "mobile-translate" sample and a couple of advice from StackOverflow.
@@ -8,7 +8,7 @@
  */
 
 /**
- * List of default dictionaries.
+ * List of the default dictionaries.
  */
 var defaultSettings = {
   'count' : '10',
@@ -20,7 +20,7 @@ var defaultSettings = {
 };
 
 /**
- * Creates a menu entry in the Google Docs UI when the document is opened.
+ * Creates a menu entry in the Google Docs UI when a document is opened.
  */
 function onOpen(e) {
   DocumentApp.getUi().createAddonMenu()
@@ -32,14 +32,14 @@ function onOpen(e) {
  * Runs when the add-on is installed.
  */
 function onInstall(e) {
-  // Set default dictionaries for current user.
+  // Set the default dictionaries for the current user.
   PropertiesService.getUserProperties().setProperties(defaultSettings, true);
 
   onOpen(e);
 }
 
 /**
- * Opens a sidebar in the document containing the add-on's user interface.
+ * Opens the lookup sidebar in a document.
  */
 function showSidebar() {
   var ui = HtmlService.createTemplateFromFile('Sidebar').evaluate().setTitle('Lookup');
@@ -47,29 +47,28 @@ function showSidebar() {
 }
 
 /**
- * Gets a word at the position.
+ * Gets a word at the position of the text.
  *
- * @return <string> The word or an empty string.
+ * @return <string> The word or ''.
  */
 function getWordAt(str, pos) {
   // Search for the word's beginning and end.
   var left = str.slice(0, pos + 1).search(/\S+$/),
       right = str.slice(pos).search(/\s/);
-  // The last word in the string is a special case.
+  // The last word in the text is a special case.
   if (right < 0) {
       return str.slice(left);
   }
-  // Return the word, using the located bounds to extract it from the string.
   return str.slice(left, right + pos);
 }
 
 /**
- * Gets a text that the user has selected or a word under the cursor.
+ * Gets a text that a user has selected or a word under the cursor.
  *
- * @return <string> The selected text or the word under the cursor or the empty string.
+ * @return <string> The selected text or the word under the cursor or ''.
  */
 function getLookupText() {
-  // Get selected text.
+  // Get a selected text.
   var selection = DocumentApp.getActiveDocument().getSelection();
   if (selection) {
     var text = [];
@@ -105,11 +104,19 @@ function getLookupText() {
   return '';
 }
 
+/**
+ * Constructs a link from the template and the text.
+ *
+ * @return <string> The lokkup link if the template is not empty.
+ */
 function getLookupLink(url) {
   if (url) return Utilities.formatString(url, getLookupText());
-  throw new Error( "Empty URL." );
+  throw new Error('Empty URL.');
 }
 
+/**
+ * Opens the settings dialog.
+ */
 function showSettings() {
   var ui = HtmlService.createTemplateFromFile('Settings').evaluate().setWidth(600).setHeight(400);
   DocumentApp.getUi().showModalDialog(ui, 'Preferences');
