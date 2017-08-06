@@ -16,7 +16,7 @@
         overflow: auto;
         height: 100%;
       }
-      input[name="dict"]{ 
+      input[name="dict"]{
         width: 100%;
         margin-bottom: 16px;
       }
@@ -30,8 +30,7 @@
         width: 120px;
         margin-top: 4px;
         margin-left: 8px;
-        margin-right: 4px;
-        margin-bottom: 16px;
+        margin-bottom: 14px;
       }
     </style>
   </head>
@@ -45,7 +44,7 @@
           var dict = data['dict' + i].split(',', 2);
           if (dict.length == 2) {
       ?>
-            <input type="button" name="dict" value="<?= dict[0].trim() ?>" 
+            <input type="button" name="dict" value="<?= dict[0].trim() ?>"
             onClick="google.script.run.withSuccessHandler(openLink).getLookupLink('<?= dict[1].trim() ?>')"/>
       <?
           }
@@ -53,7 +52,7 @@
       }
       ?>
       </form>
-    </div>  
+    </div>
     <footer>
       <a href="https://github.com/in4lio/dictionary-lookup/" style="margin-left: 4px;" target="blank">GitHub</a>
       <input type="button" name="settings" value="Preferences" onclick="google.script.run.showSettings()"/>
