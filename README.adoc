@@ -4,3 +4,8 @@
 Search for words from your Google document in online dictionaries.
 
 image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png[link="{webstore}"]
+
+### Usage
+
+- When your Google document is open, click "Add-ons Menu" → "Dictionary Lookup" → "Start" to display "Lookup" sidebar.
+- Then you can select a word and click a button on the sidebar to look up for that word in a dictionary.
