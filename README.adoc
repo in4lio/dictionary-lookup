@@ -8,6 +8,6 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 ### Usage
 
 - When your Google document is open, click "Add-ons Menu" → "Dictionary Lookup" → "Start" to display "Lookup" sidebar.
-- After that, you can place the cursor on a word or select a word combination, and click one of the buttons on the sidebar to look up for it in the corresponding dictionary.
+- After that, you can place the cursor on a word or select a word combination, and click one of the buttons on the sidebar to look up for translation in the corresponding dictionary.
 - Click "Preferances" button to configure the set of dictionaries.
  
