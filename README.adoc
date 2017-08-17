@@ -16,7 +16,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 |===
 | Online Dictionary   | URL Template
 
-| Cambridge           | http://<i></i>dictionary.cambridge.org/search/english-russian/direct/?q=%s
+| Cambridge           | `_http_://dictionary.cambridge.org/search/*english*-*russian*/direct/?q=__%s__`
 | Oxford              | http://www.oxfordlearnersdictionaries.com/search/english/?q=%s
 | SkELL               | https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s
 | Lingvo              | https://www.lingvolive.com/ru-ru/translate/en-ru/%
