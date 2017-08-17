@@ -16,10 +16,10 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 |===
 | Online Dictionary   | URL Template
 
-| Cambridge           | _http_://_dictionary.cambridge.org_/search/*english*-*russian*/direct/?q=_%s_
-| Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/search/*english*/?q=_%s_
-| SkELL               | _https_://_skellm.sketchengine.co.uk_/run.cgi/concordance?query=_%s_
-| Lingvo              | _https_://_www_._lingvolive.com_/ru-ru/translate/*en*-*ru*/_%s_
-| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/_%s_
+| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english*-*russian*/_direct_/?q=%s
+| Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?q=%s
+| SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?query=%s
+| Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en*-*ru*/%s
+| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s
 |===
 
