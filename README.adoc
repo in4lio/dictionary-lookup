@@ -11,13 +11,15 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 - After that, you can place the cursor on a word or select a word combination, and click one of the buttons on the sidebar to look up for translation in the corresponding dictionary.
 - Click "Preferances" button to configure the set of dictionaries.
 
-|===
-|Online Dictionary   |URL Template
+### Configuration
 
-|Cambridge           | http://dictionary.cambridge.org/search/english-russian/direct/?q=%s
-|Oxford              | http://www.oxfordlearnersdictionaries.com/search/english/?q=%s
-|SkELL               | https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s
-|Lingvo              | https://www.lingvolive.com/ru-ru/translate/en-ru/%
-|Google Translate    | https://translate.google.com/#en/ru/%s
+|===
+| Online Dictionary   | URL Template
+
+| Cambridge           | http://<i></i>dictionary.cambridge.org/search/english-russian/direct/?q=%s
+| Oxford              | http://www.oxfordlearnersdictionaries.com/search/english/?q=%s
+| SkELL               | https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s
+| Lingvo              | https://www.lingvolive.com/ru-ru/translate/en-ru/%
+| Google Translate    | https://translate.google.com/#en/ru/%s
 |===
 
