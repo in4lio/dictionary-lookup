@@ -16,8 +16,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 |===
 | Online Dictionary   | URL Template                                                                      | Sets of Content
 
-| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s   | english-russian +
-                                                                                                            english +
+| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s   | english +
                                                                                                             learner-english +
                                                                                                             essential-american-english +
                                                                                                             essential-british-english +
@@ -33,6 +32,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                             english-malaysian +
                                                                                                             english-polish +
                                                                                                             english-portuguese +
+                                                                                                            *english-russian* +
                                                                                                             english-spanish +
                                                                                                             english-thai +
                                                                                                             english-vietnamese +
