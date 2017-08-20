@@ -16,10 +16,10 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 |===
 | Online Dictionary   | URL Template                                                                      | Sets of Content
 
-| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s   | english +
-                                                                                                            learner-english +
+| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s   | learner-english +
                                                                                                             essential-american-english +
                                                                                                             essential-british-english +
+                                                                                                            english +
                                                                                                             english-arabic +
                                                                                                             english-catalan +
                                                                                                             english-chinese +
@@ -42,8 +42,12 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                             spanish-english +
                                                                                                             turkish
 
-| Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?_q_=%s        | english
+| Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?_q_=%s        | american_english +
+                                                                                                            *english*
 | SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?_query_=%s          | –
-| Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en-ru*/%s                   | en-ru
+| Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en*-*ru*/%s                 | *en* hu el da es +
+                                                                                                            it kk zh la de +
+                                                                                                            nl no pl pt *ru* +
+                                                                                                            tt tr uk fi fr
 | Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | auto, en, ru
 |===
