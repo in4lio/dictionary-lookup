@@ -65,7 +65,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                             `tt` Tatar +
                                                                                                             `tr` Turkish +
                                                                                                             `uk` Ukrainian
-| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | `auto`footnote:[Look https://translate.google.com/ for a full list of supported languages.] +
+| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | `auto` footnote:[Look https://translate.google.com/ for the full list of supported languages.] +
                                                                                                             `zh` Chinese +
                                                                                                             `da` Danish +
                                                                                                             `nl` Dutch +
