@@ -49,5 +49,53 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                             `it` `kk` `zh` `la` `de` +
                                                                                                             `nl` `no` `pl` `pt` `*ru*` +
                                                                                                             `tt` `tr` `uk` `fi` `fr`
-| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | `auto` `en` `ru`
+| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | `auto` +
+                                                                                                            Afrikaans +
+                                                                                                            Albanian +
+                                                                                                            Amharic +
+                                                                                                            Arabic +
+                                                                                                            Armenian +
+                                                                                                            Azerbaijani +
+                                                                                                            Basque +
+                                                                                                            Belarusian +
+                                                                                                            Bengali +
+                                                                                                            Bosnian +
+                                                                                                            Bulgarian +
+                                                                                                            Catalan +
+                                                                                                            Cebuano +
+                                                                                                            Chichewa +
+                                                                                                            Chinese +
+                                                                                                            Corsican +
+                                                                                                            Croatian +
+                                                                                                            Czech +
+                                                                                                            Danish +
+                                                                                                            Dutch +
+                                                                                                            English +
+                                                                                                            Esperanto +
+                                                                                                            Estonian +
+                                                                                                            Filipino +
+                                                                                                            Finnish +
+                                                                                                            French +
+                                                                                                            Frisian +
+                                                                                                            Galician +
+                                                                                                            Georgian +
+                                                                                                            German +
+                                                                                                            Greek +
+                                                                                                            Gujarati +
+                                                                                                            Haitian +
+                                                                                                            Hausa +
+                                                                                                            Hawaiian +
+                                                                                                            Hebrew +
+                                                                                                            Hindi +
+                                                                                                            Hmong +
+                                                                                                            Hungarian +
+                                                                                                            Icelandic +
+                                                                                                            Igbo +
+                                                                                                            Indonesian +
+                                                                                                            Irish +
+                                                                                                            Italian +
+                                                                                                            Japanese +
+                                                                                                            Javanese +
+                                                                                                            Kannada +
 |===
+                                                                                                     
