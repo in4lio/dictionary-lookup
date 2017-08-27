@@ -66,51 +66,24 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                             `tr` Turkish +
                                                                                                             `uk` Ukrainian
 | Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | `auto` +
-                                                                                                            Afrikaans +
-                                                                                                            Albanian +
-                                                                                                            Amharic +
-                                                                                                            Arabic +
-                                                                                                            Armenian +
-                                                                                                            Azerbaijani +
-                                                                                                            Basque +
-                                                                                                            Belarusian +
-                                                                                                            Bengali +
-                                                                                                            Bosnian +
-                                                                                                            Bulgarian +
-                                                                                                            Catalan +
-                                                                                                            Cebuano +
-                                                                                                            Chichewa +
-                                                                                                            Chinese +
-                                                                                                            Corsican +
-                                                                                                            Croatian +
-                                                                                                            Czech +
-                                                                                                            Danish +
-                                                                                                            Dutch +
-                                                                                                            English +
-                                                                                                            Esperanto +
-                                                                                                            Estonian +
-                                                                                                            Filipino +
-                                                                                                            Finnish +
-                                                                                                            French +
-                                                                                                            Frisian +
-                                                                                                            Galician +
-                                                                                                            Georgian +
-                                                                                                            German +
-                                                                                                            Greek +
-                                                                                                            Gujarati +
-                                                                                                            Haitian +
-                                                                                                            Hausa +
-                                                                                                            Hawaiian +
-                                                                                                            Hebrew +
-                                                                                                            Hindi +
-                                                                                                            Hmong +
-                                                                                                            Hungarian +
-                                                                                                            Icelandic +
-                                                                                                            Igbo +
-                                                                                                            Indonesian +
-                                                                                                            Irish +
-                                                                                                            Italian +
-                                                                                                            Japanese +
-                                                                                                            Javanese +
-                                                                                                            Kannada +
+                                                                                                            `zh` Chinese +
+                                                                                                            `da` Danish +
+                                                                                                            `nl` Dutch +
+                                                                                                            `*en*` English +
+                                                                                                            `fi` Finnish +
+                                                                                                            `fr` French +
+                                                                                                            `de` German +
+                                                                                                            `el` Greek +
+                                                                                                            `hu` Hungarian +
+                                                                                                            `it` Italian +
+                                                                                                            `kk` Kazakh +
+                                                                                                            `la` Latin +
+                                                                                                            `no` Norwegian +
+                                                                                                            `pl` Polish +
+                                                                                                            `pt` Portuguese +
+                                                                                                            `*ru*` Russian +
+                                                                                                            `es` Spanish +
+                                                                                                            `tt` Tatar +
+                                                                                                            `tr` Turkish +
+                                                                                                            `uk` Ukrainian
 |===
