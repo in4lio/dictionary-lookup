@@ -14,76 +14,76 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 ### Configuration
 
 |===
-| Online Dictionary   | URL Template                                                                      | Sets of Content
+| Online Dictionary   | URL Template                                                                    | Sets of Content
 
-| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s   | learner-english +
-                                                                                                            essential-american-english +
-                                                                                                            essential-british-english +
-                                                                                                            english +
-                                                                                                            english-arabic +
-                                                                                                            english-catalan +
-                                                                                                            english-chinese +
-                                                                                                            english-french +
-                                                                                                            english-german +
-                                                                                                            english-indonesian +
-                                                                                                            english-italian +
-                                                                                                            english-japanese +
-                                                                                                            english-korean +
-                                                                                                            english-malaysian +
-                                                                                                            english-polish +
-                                                                                                            english-portuguese +
-                                                                                                            *english-russian* +
-                                                                                                            english-spanish +
-                                                                                                            english-thai +
-                                                                                                            english-vietnamese +
-                                                                                                            french-english +
-                                                                                                            german-english +
-                                                                                                            indonesian-english +
-                                                                                                            spanish-english +
-                                                                                                            turkish
+| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s | `learner-english` +
+                                                                                                          `essential-american-english` +
+                                                                                                          `essential-british-english` +
+                                                                                                          `english` +
+                                                                                                          `english-arabic` +
+                                                                                                          `english-catalan` +
+                                                                                                          `english-chinese` +
+                                                                                                          `english-french` +
+                                                                                                          `english-german` +
+                                                                                                          `english-indonesian` +
+                                                                                                          `english-italian` +
+                                                                                                          `english-japanese` +
+                                                                                                          `english-korean` +
+                                                                                                          `english-malaysian` +
+                                                                                                          `english-polish` +
+                                                                                                          `english-portuguese` +
+                                                                                                          `*english-russian*` +
+                                                                                                          `english-spanish` +
+                                                                                                          `english-thai` +
+                                                                                                          `english-vietnamese` +
+                                                                                                          `french-english` +
+                                                                                                          `german-english` +
+                                                                                                          `indonesian-english` +
+                                                                                                          `spanish-english` +
+                                                                                                          `turkish`
 
-| Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?_q_=%s        | american_english +
-                                                                                                            *english*
-| SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?_query_=%s          | –
-| Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en*-*ru*/%s                 | `zh` Chinese +
-                                                                                                            `da` Danish +
-                                                                                                            `nl` Dutch +
-                                                                                                            `*en*` English +
-                                                                                                            `fi` Finnish +
-                                                                                                            `fr` French +
-                                                                                                            `de` German +
-                                                                                                            `el` Greek +
-                                                                                                            `hu` Hungarian +
-                                                                                                            `it` Italian +
-                                                                                                            `kk` Kazakh +
-                                                                                                            `la` Latin +
-                                                                                                            `no` Norwegian +
-                                                                                                            `pl` Polish +
-                                                                                                            `pt` Portuguese +
-                                                                                                            `*ru*` Russian +
-                                                                                                            `es` Spanish +
-                                                                                                            `tt` Tatar +
-                                                                                                            `tr` Turkish +
-                                                                                                            `uk` Ukrainian
-| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                    | `auto` footnote:[Look https://translate.google.com/ for the full list of supported languages.] +
-                                                                                                            `zh` Chinese +
-                                                                                                            `da` Danish +
-                                                                                                            `nl` Dutch +
-                                                                                                            `*en*` English +
-                                                                                                            `fi` Finnish +
-                                                                                                            `fr` French +
-                                                                                                            `de` German +
-                                                                                                            `el` Greek +
-                                                                                                            `hu` Hungarian +
-                                                                                                            `it` Italian +
-                                                                                                            `kk` Kazakh +
-                                                                                                            `la` Latin +
-                                                                                                            `no` Norwegian +
-                                                                                                            `pl` Polish +
-                                                                                                            `pt` Portuguese +
-                                                                                                            `*ru*` Russian +
-                                                                                                            `es` Spanish +
-                                                                                                            `tt` Tatar +
-                                                                                                            `tr` Turkish +
-                                                                                                            `uk` Ukrainian
+| Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?_q_=%s      | `american_english` +
+                                                                                                          `*english*`
+| SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?_query_=%s        | –
+| Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en*-*ru*/%s               | `zh` Chinese +
+                                                                                                          `da` Danish +
+                                                                                                          `nl` Dutch +
+                                                                                                          `*en*` English +
+                                                                                                          `fi` Finnish +
+                                                                                                          `fr` French +
+                                                                                                          `de` German +
+                                                                                                          `el` Greek +
+                                                                                                          `hu` Hungarian +
+                                                                                                          `it` Italian +
+                                                                                                          `kk` Kazakh +
+                                                                                                          `la` Latin +
+                                                                                                          `no` Norwegian +
+                                                                                                          `pl` Polish +
+                                                                                                          `pt` Portuguese +
+                                                                                                          `*ru*` Russian +
+                                                                                                          `es` Spanish +
+                                                                                                          `tt` Tatar +
+                                                                                                          `tr` Turkish +
+                                                                                                          `uk` Ukrainian
+| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                  | `auto` footnote:[Look https://translate.google.com/ for the full list of supported languages.] +
+                                                                                                          `zh` Chinese +
+                                                                                                          `da` Danish +
+                                                                                                          `nl` Dutch +
+                                                                                                          `*en*` English +
+                                                                                                          `fi` Finnish +
+                                                                                                          `fr` French +
+                                                                                                          `de` German +
+                                                                                                          `el` Greek +
+                                                                                                          `hu` Hungarian +
+                                                                                                          `it` Italian +
+                                                                                                          `kk` Kazakh +
+                                                                                                          `la` Latin +
+                                                                                                          `no` Norwegian +
+                                                                                                          `pl` Polish +
+                                                                                                          `pt` Portuguese +
+                                                                                                          `*ru*` Russian +
+                                                                                                          `es` Spanish +
+                                                                                                          `tt` Tatar +
+                                                                                                          `tr` Turkish +
+                                                                                                          `uk` Ukrainian
 |===
