@@ -40,11 +40,12 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           german-english +
                                                                                                           indonesian-english +
                                                                                                           spanish-english +
-                                                                                                          turkih`
+                                                                                                          turkih
 
 | Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?_q_=%s      | american_english +
                                                                                                           *english*
 | SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?_query_=%s        | –
+
 | Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en*-*ru*/%s               | `zh` Chinese +
                                                                                                           `da` Danish +
                                                                                                           `nl` Dutch +
@@ -65,6 +66,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           `tt` Tatar +
                                                                                                           `tr` Turkish +
                                                                                                           `uk` Ukrainian
+
 | Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                  | `auto` footnote:[Look https://translate.google.com/ for the full list of supported languages.] +
                                                                                                           `zh` Chinese +
                                                                                                           `da` Danish +
