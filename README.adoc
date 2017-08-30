@@ -88,4 +88,9 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           `tt` Tatar +
                                                                                                           `tr` Turkish +
                                                                                                           `uk` Ukrainian
+
+| Dictionary.com      | _http_://_www_._dictionary.com_/_browse_/%s                                     | –
+
+| Thesaurus.com       | _http_://_www_._dictionary.com_/_browse_/%s                                     | –
+
 |===
