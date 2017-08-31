@@ -96,8 +96,25 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           thesaurus
 
 | Collins             | _https_://_www_._collinsdictionary_._com_/_dictionary_/*english*/%s             | *english* +
+                                                                                                          english-thesaurus +
+                                                                                                          american-thesaurus +
+                                                                                                          english-french +
+                                                                                                          french-english +
+                                                                                                          english-german +
+                                                                                                          german-english +
+                                                                                                          english-spanish +
+                                                                                                          spanish-english +
+                                                                                                          english-italian +
+                                                                                                          italian-english +
+                                                                                                          english-chinese +
+                                                                                                          chinese-english +
+                                                                                                          english-portuguese +
+                                                                                                          portuguese-english +
+                                                                                                          english-hindi +
+                                                                                                          hindi-english +
+                                                                                                          word-lists
                                                                                                           
-| Longman             | _http_://_www_._ldoceonline_._com_/_search_/?q=%s                               | –
+| Longman             | _http_://_www_._ldoceonline_._com_/_search_/?_q_=%s                             | –
 
 | Macmillan           | _http_://_www_._macmillandictionary_._com_/_dictionary_/_british_/%s            | –
 
