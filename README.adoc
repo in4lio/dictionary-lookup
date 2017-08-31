@@ -89,8 +89,10 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           `tr` Turkish +
                                                                                                           `uk` Ukrainian
 
-| Dictionary.com      | _http_://_www_._dictionary.com_/_browse_/%s                                     | –
+| Dictionary.com      | _http_://_www_.*dictionary*._com_/_browse_/%s                                   | dictionary +
+                                                                                                          thesaurus
 
-| Thesaurus.com       | _http_://_www_._thesaurus.com_/_browse_/%s                                      | –
+| Merriam-Webster     | _https_://_www_._merriam-webster_._com_/*dictionary*/%s                         | dictionary +
+                                                                                                          thesaurus
 
 |===
