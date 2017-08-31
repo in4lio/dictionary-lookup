@@ -95,4 +95,8 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 | Merriam-Webster     | _https_://_www_._merriam-webster_._com_/*dictionary*/%s                         | dictionary +
                                                                                                           thesaurus
 
+| Collins             | _https_://_www_._collinsdictionary_._com_/_dictionary_/*english*/%s             | +
+                                                                                                          
+| Longman             | _http_://_www_._ldoceonline_._com_/_search_/?q=%s                               | +
+
 |===
