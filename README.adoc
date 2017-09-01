@@ -114,9 +114,11 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           hindi-english +
                                                                                                           word-lists
 
-| Longman             | _http_://_www_._ldoceonline_._com_/_search_/?_q_=%s                             | –
+| Longman             | _http_://_www_._ldoceonline_._com_/_dictionary_/%s +
+                        _http_://_www_._ldoceonline_._com_/_search_/?_q_=%s                             | –
 
-| Longman             | _http_://_www_._ldoceonline_._com_/_dictionary_/*english-japanese*/%s           | *english-japanese* +
+| Longman             | _http_://_www_._ldoceonline_._com_/_dictionary_/*english-japanese*/%s +
+                        _http_://_www_._ldoceonline_._com_/_search_/*english-japanese*/?_q_=%s          | *english-japanese* +
                                                                                                           english-korean +
                                                                                                           english-spanish +
                                                                                                           japanese-english +
