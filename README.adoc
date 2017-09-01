@@ -113,8 +113,14 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           english-hindi +
                                                                                                           hindi-english +
                                                                                                           word-lists
-                                                                                                          
+
 | Longman             | _http_://_www_._ldoceonline_._com_/_search_/?_q_=%s                             | –
+
+| Longman             | _http_://_www_._ldoceonline_._com_/_dictionary_/*english-japanese*/%s           | *english-japanese* +
+                                                                                                          english-korean +
+                                                                                                          english-spanish +
+                                                                                                          japanese-english +
+                                                                                                          spanish-english
 
 | Macmillan           | _http_://_www_._macmillandictionary_._com_/_dictionary_/_british_/%s            | –
 
