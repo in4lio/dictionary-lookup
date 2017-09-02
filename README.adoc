@@ -16,10 +16,10 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 |===
 | Online Dictionary   | URL Template                                                                    | Sets of Content
 
-| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english-russian*/_direct_/?_q_=%s | learner-english +
+| Cambridge           | _http_://_dictionary.cambridge.org_/_search_/*english*/_direct_/?_q_=%s         | learner-english +
                                                                                                           essential-american-english +
                                                                                                           essential-british-english +
-                                                                                                          english +
+                                                                                                          *english* +
                                                                                                           english-arabic +
                                                                                                           english-catalan +
                                                                                                           english-chinese +
@@ -32,7 +32,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           english-malaysian +
                                                                                                           english-polish +
                                                                                                           english-portuguese +
-                                                                                                          *english-russian* +
+                                                                                                          english-russian +
                                                                                                           english-spanish +
                                                                                                           english-thai +
                                                                                                           english-vietnamese +
@@ -44,6 +44,43 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 
 | Oxford              | _http_://_www_._oxfordlearnersdictionaries.com_/_search_/*english*/?_q_=%s      | american_english +
                                                                                                           *english*
+| Longman (English)   | _http_://_www_._ldoceonline_._com_/_dictionary_/%s +
+                        _http_://_www_._ldoceonline_._com_/_search_/?_q_=%s                             | –
+
+| Longman             | _http_://_www_._ldoceonline_._com_/_dictionary_/*english-japanese*/%s +
+                        _http_://_www_._ldoceonline_._com_/_search_/*english-japanese*/?_q_=%s          | *english-japanese* +
+                                                                                                          english-korean +
+                                                                                                          english-spanish +
+                                                                                                          japanese-english +
+                                                                                                          spanish-english
+
+| Collins             | _https_://_www_._collinsdictionary_._com_/_dictionary_/*english*/%s             | *english* +
+                                                                                                          english-thesaurus +
+                                                                                                          american-thesaurus +
+                                                                                                          english-french +
+                                                                                                          french-english +
+                                                                                                          english-german +
+                                                                                                          german-english +
+                                                                                                          english-spanish +
+                                                                                                          spanish-english +
+                                                                                                          english-italian +
+                                                                                                          italian-english +
+                                                                                                          english-chinese +
+                                                                                                          chinese-english +
+                                                                                                          english-portuguese +
+                                                                                                          portuguese-english +
+                                                                                                          english-hindi +
+                                                                                                          hindi-english +
+                                                                                                          word-lists
+
+| Merriam-Webster     | _https_://_www_._merriam-webster_._com_/*dictionary*/%s                         | *dictionary* +
+                                                                                                          thesaurus
+
+| Macmillan           | _http_://_www_._macmillandictionary_._com_/_dictionary_/_british_/%s            | –
+
+| Dictionary.com      | _http_://_www_.*dictionary*._com_/_browse_/%s                                   | *dictionary* +
+                                                                                                          thesaurus
+
 | SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?_query_=%s        | –
 
 | Lingvo              | _https_://_www_._lingvolive.com_/_ru-ru_/_translate_/*en*-*ru*/%s               | `zh` Chinese +
@@ -67,11 +104,11 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           `tr` Turkish +
                                                                                                           `uk` Ukrainian
 
-| Google Translate    | _https_://_translate.google.com_/#*en*/*ru*/%s                                  | `auto` footnote:[Look https://translate.google.com/ for the full list of supported languages.] +
+| Google Translate    | _https_://_translate.google.com_/#*auto*/*ru*/%s                                | `*auto*` footnote:[Look https://translate.google.com/ for the full list of supported languages.] +
                                                                                                           `zh` Chinese +
                                                                                                           `da` Danish +
                                                                                                           `nl` Dutch +
-                                                                                                          `*en*` English +
+                                                                                                          `en` English +
                                                                                                           `fi` Finnish +
                                                                                                           `fr` French +
                                                                                                           `de` German +
@@ -88,42 +125,5 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
                                                                                                           `tt` Tatar +
                                                                                                           `tr` Turkish +
                                                                                                           `uk` Ukrainian
-
-| Dictionary.com      | _http_://_www_.*dictionary*._com_/_browse_/%s                                   | *dictionary* +
-                                                                                                          thesaurus
-
-| Merriam-Webster     | _https_://_www_._merriam-webster_._com_/*dictionary*/%s                         | *dictionary* +
-                                                                                                          thesaurus
-
-| Collins             | _https_://_www_._collinsdictionary_._com_/_dictionary_/*english*/%s             | *english* +
-                                                                                                          english-thesaurus +
-                                                                                                          american-thesaurus +
-                                                                                                          english-french +
-                                                                                                          french-english +
-                                                                                                          english-german +
-                                                                                                          german-english +
-                                                                                                          english-spanish +
-                                                                                                          spanish-english +
-                                                                                                          english-italian +
-                                                                                                          italian-english +
-                                                                                                          english-chinese +
-                                                                                                          chinese-english +
-                                                                                                          english-portuguese +
-                                                                                                          portuguese-english +
-                                                                                                          english-hindi +
-                                                                                                          hindi-english +
-                                                                                                          word-lists
-
-| Longman (English)   | _http_://_www_._ldoceonline_._com_/_dictionary_/%s +
-                        _http_://_www_._ldoceonline_._com_/_search_/?_q_=%s                             | –
-
-| Longman             | _http_://_www_._ldoceonline_._com_/_dictionary_/*english-japanese*/%s +
-                        _http_://_www_._ldoceonline_._com_/_search_/*english-japanese*/?_q_=%s          | *english-japanese* +
-                                                                                                          english-korean +
-                                                                                                          english-spanish +
-                                                                                                          japanese-english +
-                                                                                                          spanish-english
-
-| Macmillan           | _http_://_www_._macmillandictionary_._com_/_dictionary_/_british_/%s            | –
 
 |===
