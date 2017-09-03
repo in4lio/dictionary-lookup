@@ -12,12 +12,19 @@
  */
 var defaultSettings = {
   'count' : '10',
-  'dict0' : 'Cambridge,        http://dictionary.cambridge.org/search/english-russian/direct/?q=%s',
+  'dict0' : 'Cambridge,        http://dictionary.cambridge.org/search/english/direct/?q=%s',
   'dict1' : 'Oxford,           http://www.oxfordlearnersdictionaries.com/search/english/?q=%s',
-  'dict2' : 'SkELL,            https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s',
-  'dict3' : 'Lingvo,           https://www.lingvolive.com/ru-ru/translate/en-ru/%s',
-  'dict4' : 'Google Translate, https://translate.google.com/#en/ru/%s',
+  'dict2' : 'Longman,          http://www.ldoceonline.com/dictionary/%s',
+  'dict3' : 'Collins,          https://www.collinsdictionary.com/dictionary/english/%s',
+  'dict4' : 'Merriam-Webster,  https://www.merriam-webster.com/dictionary/%s',
+  'dict5' : 'Macmillan,        http://www.macmillandictionary.com/dictionary/british/%s',
+  'dict6' : 'Dictionary.com,   http://www.dictionary.com/browse/%s',
+  'dict7' : 'SkELL,            https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s',
+  'dict8' : 'Lingvo,           https://www.lingvolive.com/ru-ru/translate/en-ru/%s',
+  'dict9' : 'Google Translate, https://translate.google.com/#auto/ru/%s',
 };
+
+var HOMEPAGE = 'https://github.com/in4lio/dictionary-lookup/';
 
 /**
  * Creates a menu entry in the Google Docs UI when a document is opened.
