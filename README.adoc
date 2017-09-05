@@ -13,7 +13,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 
 ### Configuration
 
-There are URL templates with lists of possible language combinations for several online dictionaries in the following table. You could use them to configure this add-on.
+There are URL templates with lists of possible language combinations for several online dictionaries in the following table. You can use them to configure this add-on. The highlighted portion of a URL template could be replaced with one of the options from the rightmost column.
 
 |===
 | Online Dictionary   | URL Template                                                                    | Sets of Content
