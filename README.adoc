@@ -80,9 +80,9 @@ There are URL templates with lists of possible language combinations for several
 
 | Macmillan           | _http_://_www_._macmillandictionary_._com_/_dictionary_/_british_/%s            | –
 
-| Dictionary.com      | _http_://_www_._dictionary_._com_/_browse_/%s                                   | –
-
 | Thesaurus.com       | _http_://_www_._thesaurus_._com_/_browse_/%s                                    | –
+
+| Dictionary.com      | _http_://_www_._dictionary_._com_/_browse_/%s                                   | –
 
 | SkELL               | _https_://_skellm.sketchengine.co.uk_/_run.cgi_/_concordance_?_query_=%s        | –
 
