@@ -18,7 +18,7 @@ var defaultSettings = {
   'dict3' : 'Collins,          https://www.collinsdictionary.com/dictionary/english/%s',
   'dict4' : 'Merriam-Webster,  https://www.merriam-webster.com/dictionary/%s',
   'dict5' : 'Macmillan,        http://www.macmillandictionary.com/dictionary/british/%s',
-  'dict6' : 'Dictionary.com,   http://www.dictionary.com/browse/%s',
+  'dict6' : 'Thesaurus.com,    http://www.thesaurus.com/browse/%s',
   'dict7' : 'SkELL,            https://skellm.sketchengine.co.uk/run.cgi/concordance?query=%s',
   'dict8' : 'Lingvo,           https://www.lingvolive.com/ru-ru/translate/en-ru/%s',
   'dict9' : 'Google Translate, https://translate.google.com/#auto/ru/%s',
