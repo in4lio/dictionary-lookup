@@ -11,6 +11,9 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 - After that, you can place the cursor on a word or select a word combination, and click one of the buttons on the sidebar to look up for translation in the corresponding dictionary.
 - Click "Preferances" button to configure the set of dictionaries.
 
+[NOTE]
+*You have to allow pop-ups for* `docs.google.com` *in Google Chrome.*
+
 ### Configuration
 
 There are URL templates with lists of possible language combinations for several online dictionaries in the following table. You can use them to configure this add-on. The highlighted portions of URL templates could be replaced with one of the options from the rightmost column.
