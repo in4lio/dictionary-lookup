@@ -7,17 +7,17 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 
 ### Usage
 
-- When your Google document is open, click "Add-ons Menu" → "Dictionary Lookup" → "Start" to display "Lookup" sidebar.
-- After that, you can place the cursor on a word or select a word combination, and click one of the buttons on the sidebar to look up for translation in the corresponding dictionary.
+- Choose "Add-ons Menu" → "Dictionary Lookup" → "Start" to open "Lookup" sidebar.
+- After that, place the cursor on a word or select a word combination, and click one of the buttons on the sidebar to look up for translation in the corresponding dictionary.
 
 [NOTE]
-*You have to allow pop-ups for* `docs.google.com` *in Google Chrome.*
+*You have to allow pop-ups for* `docs.google.com` *in Google Chrome since a translation appears on a new tab.*
 
 - Click "Preferances" button to configure the set of dictionaries.
 
 ### Configuration
 
-There are URL templates with lists of possible language combinations for several online dictionaries in the following table. You can use them to configure this add-on. The highlighted portions of URL templates could be replaced with one of the options from the rightmost column.
+There are URL templates with lists of possible language combinations for several online dictionaries in the following table. Use them to configure the add-on. The highlighted portions of URL templates could be replaced with one of the options from the rightmost column.
 
 |===
 | Online Dictionary   | URL Template                                                                    | Sets of Content
@@ -134,3 +134,5 @@ There are URL templates with lists of possible language combinations for several
                                                                                                           `uk` Ukrainian
 
 |===
+
+Click "Default" to return updated default preferences.
