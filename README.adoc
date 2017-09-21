@@ -13,7 +13,7 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 [NOTE]
 *You have to allow pop-ups for* `docs.google.com` *in Google Chrome since a translation appears on a new tab.*
 
-- Click "Preferances" button to configure the set of dictionaries.
+- Click "Preferences" button to open the settings dialog. Use it to configure your own set of dictionaries, or to return the updated default set.
 
 ### Configuration
 
@@ -134,5 +134,3 @@ There are URL templates with lists of possible language combinations for several
                                                                                                           `uk` Ukrainian
 
 |===
-
-Click "Default" to return updated default preferences.
