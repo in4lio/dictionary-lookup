@@ -1,3 +1,5 @@
+:imagesdir: doc/pic
+
 ## Dictionary Lookup Add-on for Google Docs&trade;
 :webstore: https://chrome.google.com/webstore/detail/dictionary-lookup/aobgelnkkhckfakglcnfdolaphfemalm?utm_source=permalink
 
@@ -12,6 +14,8 @@ image::https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x
 
 [NOTE]
 *You have to allow pop-ups for* `docs.google.com` *in Google Chrome since a translation appears on a new tab.*
+
+image::pop-ups.png[Allowing pop-ups,60%,60%]
 
 - Click "Preferences" button to open the settings dialog. Use it to configure your own set of dictionaries, or to return the updated default set.
 
