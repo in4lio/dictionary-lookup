@@ -3,10 +3,12 @@
  * https://github.com/in4lio/dictionary-lookup
  *
  * Based on Google "mobile-translate" sample and a couple of advice from StackOverflow.
- *
+ */
+ 
+/**
  * @OnlyCurrentDoc
  */
-
+ 
 /**
  * List of the default dictionaries.
  */
@@ -143,3 +145,5 @@ function saveSettings(form) {
   }
   showSidebar();
 }
+
+function auth() {}
