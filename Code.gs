@@ -1,12 +1,12 @@
+/**
+ * @OnlyCurrentDoc
+ */
+
 /*
  * Dictionary Lookup -- Search for words from your Google document in online dictionaries.
  * https://github.com/in4lio/dictionary-lookup
  *
  * Based on Google "mobile-translate" sample and a couple of advice from StackOverflow.
- */
- 
-/**
- * @OnlyCurrentDoc
  */
  
 /**
@@ -145,5 +145,3 @@ function saveSettings(form) {
   }
   showSidebar();
 }
-
-function auth() {}
